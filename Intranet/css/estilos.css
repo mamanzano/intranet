@@ -15,27 +15,154 @@ body {
 
 .main-header
 {
-	background-color: #2A2A2A;
+	background-color: #313131;
+	display: flex;
+	flex-direction: column;
 	color: white;
-	padding: 10px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
+	padding: 1em;
 }
 
-	.main-header__logo
+	.main-header__title
 	{
-		display: inline-block;
+		margin-bottom: .1em;
 	}
 
 .main-nav
 {
-	margin-top: 190px;
+	background-color: #1A475E;
+}
+	.main-nav__ul
+	{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin: 0;
+		padding: 1em;
+	}
+	.main-nav__item
+	{
+		list-style: none;
+		margin: .5em;
+	}
+	.main-nav__item:last-child
+	{
+		margin-left: auto;
+	}
+	.main-nav__link
+	{
+
+		text-decoration: none;
+		color: white;
+	}
+
+
+	.main-container
+	{
+		display: flex;
+		flex-direction: column;
+		margin: 0 2em;
+		background-color: white;
+		padding: 1em;
+	}
+
+	.container
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+		.container__date
+		{
+			font-size: .7em;
+		}
+		.container__image
+		{
+			width: 43vh;
+		}
+
+	.publicity
+	{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0px;
+	}
+
+		.publicity__title
+		{
+			font-size: 1em;
+		}
+
+		.publicity__ul
+		{
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0px;
+		}
+
+		.publicity__list
+		{
+			list-style: none;
+			margin: 1em 1em;
+		}
+
+		.publicity__link
+		{
+			text-decoration: none;
+			background-color: #309AE4;
+			color: white;
+			font-weight: 400;
+			padding: .5em;
+			border-radius: .2em;
+		}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.main-header
+{
+	background-color: #2A2A2A;
+	color: white;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+	.main-header__logo
+	{
+		display: flex;
+		flex-direction: row;
+	}
+
+.main-nav
+{
 	margin-left: 0px;
 	background-color: #64D1DC;
-	width: 100%;
-	position: relative;
 	padding: .5em;
 }
 
@@ -43,11 +170,14 @@ body {
 	{
 		margin-right: 0;
 		padding: 0;
+		display: flex;
+		flex-direction-row;
+		flex-wrap: wrap;
 	}
 	.main-nav__item
 	{
 		list-style: none;
-		display: inline-block;
+		
 	}
 	.main-nav__link
 	{
@@ -106,14 +236,30 @@ body {
 	}
 	.container{
 		border-right: none;	
-		
+		margin: 0px;
+		padding: 1em;
 	}
 	.publicity
 	{
 		display: flex;
 		display: -webkit-flex;
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: flex-end;
+		margin: 0px;
+		padding: 1em;
+		flex-wrap: wrap;
 	}
 }
+
+
+
+.publicity__list
+{
+	list-style: none;
+}
+.publicity__link
+{
+	text-decoration: none;
+}*/
+
 
